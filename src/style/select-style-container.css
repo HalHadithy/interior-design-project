@@ -1,0 +1,10 @@
+#select-style-form {
+    position: relative;
+    text-align: center;
+    font-family: 'Albert Sans', sans-serif;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+}
+

@@ -1,25 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+// import the style sheets
+import "./App.css"
+import "./style/cart-container.css"
+import "./style/head-container.css"
+import "./style/nav-bar.css"
+import "./style/purchase-container.css"
+import "./style/room-container.css"
+import "./style/select-style-container.css"
+// end import the style sheets
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+import { Routes, Route } from "react-router-dom"
+import React, {useState, useEffect} from 'react'
+import HomePage from "./Components/HomePage"
+import PurchaseContainer from './Components/PurchaseContainter.js'
+import RoomContainer from './Components/RoomContainer'
+import SelectStyle from './Components/SelectStyle.js'
+import Cart from './Components/Cart'
+import FourOhFour from "./Components/FourOhFour"
+
+
+function App (){
+
+
+    return (        
+        <div>
+            <Routes >        
+              {/* build so when we are in specific URS'l so we can got o  */}
+              <Route path="/" element={<HomePage />}></Route>
+              <Route path="/select-style" element={<SelectStyle />}></Route>
+              <Route path="/room-container" element={<RoomContainer />}></Route>
+              <Route path="/purchase-container" element={<PurchaseContainer />}></Route>
+              <Route path="/cart" element={<Cart />}></Route>
+              <Route path="*" element={<FourOhFour/>}/>
+            </Routes>
+        </div>
+    )
+
 }
 
-export default App;
+export default App

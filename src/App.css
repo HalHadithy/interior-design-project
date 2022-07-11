@@ -1,38 +1,32 @@
-.App {
+
+
+body {
+  background: linear-gradient(90deg, rgba(209, 209, 209, 0.956) 0%, rgba(230,230,230,1) 15%, rgba(237,237,237,1) 30%, rgba(249,249,249,1) 50%, rgba(237,237,237,1) 70%, rgba(230,230,230,1) 85%, rgba(209, 209, 209, 0.956) 100%);
+  position: relative;
   text-align: center;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  width: 100%;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  font-size: 7vw;
+  text-transform: uppercase;
+  margin-bottom: 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 5vw;
+  text-transform: uppercase;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+  font-size:2.5vw;
+  margin: 0px;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p{
+  font-family: 'Albert Sans', sans-serif;
+  font-size: 1.8vw;
 }
