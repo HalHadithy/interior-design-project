@@ -1,20 +1,15 @@
 import React, {useState, useEffect} from 'react'
 
-function CartCard (/*in here let's put the item and number of items in the cart*/){
-
-    function removeItem(){
-
-    }
-
-    function addItem(){
-        
-    }
-
+function CartCard ({id, name, image, number}){
 
 
     return (
         <div>
-
+            <img src={image}>Photo of item</img>
+            <h3>{name}</h3>
+            <>link this item to the origional list of stuff</>
+            <p>Put something here to display number in cart</p>
+            <img src="../data/trash.png" title="delete item"></img>
         </div>
 
     )

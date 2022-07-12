@@ -3,11 +3,14 @@ import Cart from './Cart'
 import Head from './Head'
 
 
-function HomePage (){
+function HomePage (cartArray, setCartArray){
 
+    function updateState(){
+        setCartArray()
+    }
     return (
         <div>
-            <Head/>
+            <Head cartArray={cartArray} setCartArray ={setCartArray}/>
         </div>
         
     )
