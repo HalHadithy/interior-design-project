@@ -1,18 +1,28 @@
 // import { func } from 'prop-types'
 import React, {useState, useEffect} from 'react'
 import Head from './Head'
+import RoomContainer from './RoomContainer';
 
 
 //kind of wanted this to be a pop-up but w/e
 
 function SelectStyle (){
-    const [aesthetic, setAesthetic] = useState('Select an Aesthetic')
-    const [color, setColor] = useState('Select a Color Scheme')
+    const [formData, setFormData] = useState({
+        aesthetic:'Select an Aesthetic',
+        color: 'Select a Color Scheme'
+        })
 
     function handleSubmit(event){
         event.preventDefault()
-
+        //I want to use the the formData of info I'm getting as the props for the Room Container
+        console.log(formData)
     }
+
+    function handleChange(event){
+        const key = event.target.id
+        setFormData({...formData, [key]:event.target.value})
+    }
+    console.log(formData)
 
 //need to style this so it's not poop, get the header over the select and get the button a few lines down
 
@@ -24,8 +34,8 @@ function SelectStyle (){
                 <label htmlFor="aesthetic">Aesthetic Style</label>
                 <select
                     id="aesthetic"
-                    value={aesthetic}
-                    onChange={(e) => setAesthetic(e.target.value)}
+                    value={formData.aesthetic}
+                    onChange={handleChange}
                 >
                     <option value="english-cottage">English Cottage</option>
                     <option value="modern-minimalist">Modern Minimalist</option>
@@ -35,8 +45,8 @@ function SelectStyle (){
                 <label htmlFor="color">Color Scheme</label>
                 <select
                     id="color"
-                    value={color}
-                    onChange={(e) => setColor(e.target.value)}
+                    value={formData.color}
+                    onChange={handleChange}
                 >
                     <option value="neutrals">Neutrals</option>
                     <option value="cool-tones">Cool Tones</option>
@@ -44,7 +54,7 @@ function SelectStyle (){
                 </select>
                 <input type="submit" value ="Show Me Rooms"/>
             </form>
-           
+            {/* <RoomContainer formData/> */}
             
         </div>
     )

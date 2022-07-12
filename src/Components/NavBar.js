@@ -2,10 +2,10 @@ import {Link} from 'react-router-dom'
 //an a tag would technically work but it wil reload the app but this mimics how an a tag works, but it won't 
 //the entire app for us
 
-function NavBar (/* pass state for the shopping cart */){
+function NavBar (cartCount, cartArray, setCartArray){
 
     const cartLogo = <img id='shopping-cart-logo' alt='cart photo here' src= '../data/basket-01_generated.png' />
-    const cartCount = 1 //state of count
+
     return(
         <div id = "nav-bar-container">
             <div id = "nav-bar-info">

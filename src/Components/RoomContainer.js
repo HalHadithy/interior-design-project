@@ -2,24 +2,20 @@ import React, {useState, useEffect} from 'react'
 import Head from './Head'
 
 
-function RoomContainer (){
 
-    const cartArray = []
+function RoomContainer ({aesthetic, color}){
 
-    function removeItem(){
-
+    function makeCardLists(){
+        const roomCard = <RoomCard aesthetic={aesthetic} color={color}/>
     }
-
-    function addItem(){
-        
-    }
-
 
 
     return (
-        <div>
-            <Head/>
-        </div>
+       <div>
+        <Head/>
+        
+
+       </div>
 
     )
     

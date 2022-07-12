@@ -17,11 +17,6 @@
                 "image-id": 3,
                 "url": "",
                 "source": ""
-            },
-            {
-                "image-id": 4,
-                "url": "",
-                "source": ""
             }
         ]
     },
@@ -41,11 +36,6 @@
             },
             {
                 "image-id": 3,
-                "url": "",
-                "source": ""
-            },
-            {
-                "image-id": 4,
                 "url": "",
                 "source": ""
             }
@@ -69,11 +59,6 @@
                 "image-id": 3,
                 "url": "",
                 "source": ""
-            },
-            {
-                "image-id": 4,
-                "url": "",
-                "source": ""
             }
         ]
     },
@@ -93,11 +78,6 @@
             },
             {
                 "image-id": 3,
-                "url": "",
-                "source": ""
-            },
-            {
-                "image-id": 4,
                 "url": "",
                 "source": ""
             }
@@ -121,11 +101,6 @@
                 "image-id": 3,
                 "url": "",
                 "source": ""
-            },
-            {
-                "image-id": 4,
-                "url": "",
-                "source": ""
             }
         ]
     },
@@ -147,17 +122,12 @@
                 "image-id": 3,
                 "url": "",
                 "source": ""
-            },
-            {
-                "image-id": 4,
-                "url": "",
-                "source": ""
             }
         ]
     },
     {
         "id": 7 ,
-        "name": "Southwestern Neutrals",
+        "name": "Gothic Neutrals",
         "image": [
             {
                 "image-id": 1,
@@ -171,11 +141,6 @@
             },
             {
                 "image-id": 3,
-                "url": "",
-                "source": ""
-            },
-            {
-                "image-id": 4,
                 "url": "",
                 "source": ""
             }
@@ -183,7 +148,7 @@
     },
     {
         "id": 8,
-        "name": "Southwestern Cool Tones",
+        "name": "Gothic Cool Tones",
         "image": [
             {
                 "image-id": 1,
@@ -197,11 +162,6 @@
             },
             {
                 "image-id": 3,
-                "url": "",
-                "source": ""
-            },
-            {
-                "image-id": 4,
                 "url": "",
                 "source": ""
             }
@@ -209,7 +169,7 @@
     },
     {
         "id": 9,
-        "name": "Southwestern Warm Tones",
+        "name": "Gothic Warm Tones",
         "image": [
             {
                 "image-id": 1,
@@ -223,11 +183,6 @@
             },
             {
                 "image-id": 3,
-                "url": "",
-                "source": ""
-            },
-            {
-                "image-id": 4,
                 "url": "",
                 "source": ""
             }
