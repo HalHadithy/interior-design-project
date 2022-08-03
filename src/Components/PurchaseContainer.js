@@ -1,17 +1,22 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from "react";
 import PurchaseItemCard from './PurchaseItemCard'
-import RoomContainer from './RoomContainer'
 
-function PurchaseContainer (){
+function PurchaseContainer ({roomsArray, cartArray, setCartArray, styleData}){
+    const [purchaseCardArray, SetPurchaseCardArray] = useState([])
 
-    const[room, setRoom]=useState('')
-    // useEffect(in here we need to call the photos from data)
+    const styleName = `${styleData.aesthetic} ${styleData.color}`
+    console.log(styleName)
 
+    
+    //const roomObject = roomArray.filter(obj=> obj.name === styleData.aesthetic)
+    //   SetPurchaseCardArray(roomObject.items)
+
+    //   const putchaseCardList = purchaseCardArray.map((purchaseItem)=><PurchaseItemCard purchaseItem={purchaseItem} cartArray={cartArray} setCartArray={setCartArray}/> )
 
 
     return (
         <div>
-            
+            {/* {putchaseCardList} */}
         </div>
     )
     

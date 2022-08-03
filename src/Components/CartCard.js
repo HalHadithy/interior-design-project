@@ -1,15 +1,17 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 
-function CartCard ({id, name, image, number}){
+function CartCard (item, removeItem, addItem){
 
 
     return (
         <div>
-            <img src={image}>Photo of item</img>
-            <h3>{name}</h3>
-            <>link this item to the origional list of stuff</>
+            <img src={item.image} alt="item"/>
+            <h3>{item.name}</h3>
+            {/*link this item to the origional list of stuff</> */}
+            <button onClick={()=>addItem(item)}>+</button>
             <p>Put something here to display number in cart</p>
-            <img src="../data/trash.png" title="delete item"></img>
+            <button onClick={()=>removeItem(item)}>-</button>
+            <img src="../data/trash.png" title="delete item" alt="trash"></img>
         </div>
 
     )

@@ -1,0 +1,654 @@
+{   
+    "inspo":{
+        "bedroom": [
+            {
+                "id": 1,
+                "name": "European Cottage Neutrals",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 2 ,
+                "name": "European Cottage Cool Tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 3 ,
+                "name": "European Cottage Warm Tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 4 ,
+                "name": "Modern Minimalist Neutrals",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 5 ,
+                "name": "Modern Minimalist Cool Tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+        
+            {
+                "id": 6 ,
+                "name": "Modern Minimalist Warm Tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            }
+        ],
+        "livingroom": [
+            {
+                "id": 1,
+                "name": "European Cottage Neutrals",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 2 ,
+                "name": "European Cottage Cool Tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 3 ,
+                "name": "European Cottage Warm Tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 4 ,
+                "name": "Modern Minimalist Neutrals",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 5 ,
+                "name": "Modern Minimalist Cool Tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 6 ,
+                "name": "Modern Minimalist Warm Tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            }
+        ],
+        "bathroom":[
+            {
+                "id": 1,
+                "name": "European Cottage Neutrals",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 2 ,
+                "name": "European Cottage Cool Tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 3 ,
+                "name": "European Cottage Warm Tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 4 ,
+                "name": "Modern Minimalist Neutrals",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 5 ,
+                "name": "Modern Minimalist Cool Tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 6 ,
+                "name": "Modern Minimalist Warm Tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            }
+        ]
+    },
+
+    "purchase":{
+        "bedroom": [
+            {
+                "id": 1,
+                "name": "european-cottage neutrals",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 2 ,
+                "name": "european-cottage warm-tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 3 ,
+                "name": "modern-minimalist neutrals",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 4 ,
+                "name": "modern-minimalist warm-tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    }
+                ]
+            }
+        ],
+    
+        "livingroom": [
+            {
+                "id": 1,
+                "name": "european-cottage neutrals",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 2 ,
+                "name": "european-cottage warm-tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 3 ,
+                "name": "modern-minimalist neutrals",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 4 ,
+                "name": "modern-minimalist warm-tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    }
+                ]
+            }
+        ],
+
+        "bathroom":[
+            {
+                "id": 1,
+                "name": "european-cottage neutrals",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 2 ,
+                "name": "european-cottage warm-tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 3 ,
+                "name": "modern-minimalist neutrals",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    }
+                ]
+            },
+            {
+                "id": 4 ,
+                "name": "modern-minimalist warm-tones",
+                "items": [
+                    {
+                        "item-id": 1,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 2,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    },
+                    {
+                        "item-id": 3,
+                        "url": "https://mymodernmet.com/wp/wp-content/uploads/2019/09/100000-ai-faces-thumbnail.jpg",
+                        "source": ""
+                    }
+                ]
+            }
+        ]
+    }
+}
+
+

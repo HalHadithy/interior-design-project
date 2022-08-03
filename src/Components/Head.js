@@ -1,19 +1,17 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import NavBar from './NavBar'
 
-function Head (cartArray, setCartArray){
+function Head ({cartArray}){
 
-    const cartLogo = <img id='shopping-cart-logo' alt='cart photo here' src= '../data/basket-01_generated.png' />
-    const cartCountArray = (cartArray.filter(()=>cartArray.itemCount)) //state of count
-    console.log(cartCountArray)
-    
     const [cartCount, setCartCount] = useState(0)
+    const cartCountArray = (cartArray.map((cartItem)=>cartItem.itemCount)) //state of count
+
+    
 
     for(let i=0; i<cartCountArray.length; i++){
         const newCartCount = cartCount + cartCountArray[i];
         setCartCount(newCartCount)
     }
-    console.log(cartCount)
 
     return (
         <div> 

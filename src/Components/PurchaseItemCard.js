@@ -1,23 +1,25 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 
-function PurchaseItemCard(/*depending on the */){
+function PurchaseItemCard({purchaseItem, cartArray, setCartArray}){
 
-
-    function removeItem(){
-
-    }
 
     function addItem(){
-        
+        //how can I add one item to the list of items in this array???
+        setCartArray([...cartArray, purchaseItem ])
     }
 
-
+    // {
+    //     id: "",
+    //     itemName:"",
+    //     itemImage: "",
+    //     itemCount: 0
+    //   }
 
     return (
         <div>
-            <button onClick={addItem}> + </button>
-            <p>{}</p>
-            <button onClick={removeItem}> - </button>
+            <p>{purchaseItem.source}</p>
+            <img src={purchaseItem.url} alt="item to purchase"/>
+            <button onClick={addItem}> Add To Cart </button>
         </div>    
     )
     

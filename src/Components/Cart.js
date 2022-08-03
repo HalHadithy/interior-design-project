@@ -1,39 +1,27 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import CartCard from './CartCard'
-import RoomContainer from './RoomContainer'
 
-function Cart (cartArray, setCartArray){
+function Cart ({cartArray, removeItem, addItem}){
 
-const cartObject = [
-    {  
-        id: "",
-        itemName:"",
-        itemImage: "",
-        itemCount: 0
-    }
+// const cartObject = [
+//     {  
+//         id: "",
+//         itemName:"",
+//         itemImage: "",
+//         itemCount: 0
+//     }
 
-]
+// ]
 
+//display each individual item in the cart:
+const cartCardList = cartArray.map((item)=><CartCard item={item} removeItem={removeItem} addItem={addItem}/>)
 
-//lets put the 
-
-    function removeItem(){
-
-    }
-
-    function addItem(){
-        
-    }
-
-    function displayCard(event){
-        const cartDis= <CartCard event = {event}/>
-
-    }
 
     //dot map to display the cart cards
 
     return (
         <div>
+            {cartCardList}
         </div>
 
     )

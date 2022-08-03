@@ -1,15 +1,15 @@
-import React, {useState} from 'react'
+import React from 'react'
 
-function RoomCard ({room, setRoom}){
+function RoomCard ({singleRoom, setRoom}){
 
     function handleRoomClick(){
-        setRoom(room)
+        setRoom(singleRoom)
     }
+    
     return (
         <div onClick={handleRoomClick}>
-            <h3>{room}</h3>
+            <h3>{singleRoom}</h3>
         </div>    
-
     )
     
 }
